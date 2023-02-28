@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Andrew Kim's Schedule</h1>
+    <div class="subjects">
+        <div class="subject">
+            <input type="color" class="cao">
+            <input type="checkbox" class="cao">
+            <label for="cao"><u>CS382</u> Computer Archictecture and Organization</label>
+        </div>
+        <div class="subject">
+            <input type="color" class="caol">
+            <input type="checkbox" class="caol">
+            <label for="caol"><u>CS382-LD</u> Computer Archictecture and Organization Laboratory</label>
+        </div>
+        <div class="subject">
+            <input type="color" class="hp">
+            <input type="checkbox" class="hp">
+            <label for="hp"><u>HSS332</u> Health Psychology</label>
+        </div>
+        <div class="subject">
+            <input type="color" class="toc">
+            <input type="checkbox" class="toc">
+            <label for="toc"><u>CS334</u> Theory of Computation</label>
+        </div>
+        <div class="subject">
+            <input type="color" class="dms">
+            <input type="checkbox" class="dms">
+            <label for="dms"><u>CS442</u> Database Management Systems</label>
+        </div>
+        <div class="subject">
+            <input type="color" class="iwp">
+            <input type="checkbox" class="iwp">
+            <label for="iwp"><u>CS146</u> Introdocution to Web Prog. & Web Dev</label>
+        </div>
+    </div>
+
+    <button class="btn">Update</button>
+
+    <!-- <li><u>CS382</u> Computer Archictecture and Organization</li>
+        <li>
+            <u>CS382-LD</u> Computer Archictecture and Organization Laboratory
+        </li>
+        <li><u>HSS332</u> Health Psychology</li>
+        <li><u>CS334</u> Theory of Computation</li>
+        <li><u>CS442</u> Database Management Systems</li>
+        <li><u>CS146</u> Introdocution to Web Prog. & Web Dev</li> -->
+
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td align="right">8 AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="right">9 AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="right">10 AM</td>
+                <td></td>
+                <td rowspan="2" class="CS382-LD">CS382-LD</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="right">11 AM</td>
+                <td class="CS382">CS382</td>
+                <td class="CS382">CS382</td>
+                <td></td>
+                <td class="CS382">CS382</td>
+            </tr>
+            <tr>
+                <td align="right">12 PM</td>
+                <td></td>
+                <td rowspan="2" class="CS334">CS334</td>
+                <td></td>
+                <td rowspan="2" class="CS334">CS334</td>
+                <td rowspan="3" class="HSS332">HSS332</td>
+            </tr>
+            <tr>
+                <td align="right">1 PM</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="right">2 PM</td>
+                <td></td>
+                <td class="CS442">CS442</td>
+                <td></td>
+                <td class="CS442">CS442</td>
+            </tr>
+            <tr>
+                <td align="right">3 PM</td>
+                <td></td>
+                <td rowspan="2" class="CS146">CS146</td>
+                <td></td>
+                <td rowspan="2" class="CS146">CS146</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="right">4 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="right">5 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="right">6 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="right">7 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="right">8 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </tbody>
+    </table>
+    <script src="app.js"></script>
+</body>
+
+</html>

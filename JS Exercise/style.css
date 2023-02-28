@@ -1,0 +1,17 @@
+.subjects {
+    margin-bottom: 15px;
+}
+
+.btn {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.CS382:hover,
+.CS382-LD:hover,
+.HSS332:hover,
+.CS334:hover,
+.CS442:hover,
+.CS146:hover {
+    font-weight: 700;
+}

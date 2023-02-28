@@ -1,0 +1,438 @@
+body {
+    background-color: black
+}
+
+[data-tab-info] {
+    display: none;
+}
+
+.active[data-tab-info] {
+    display: block;
+}
+
+.tab-content {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(82, 75, 75);
+}
+
+.tabs {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.tabs span {
+    background: rgb(144, 104, 255);
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.tabs span:hover {
+    background: rgb(29, 185, 112);
+    cursor: pointer;
+    color: black;
+}
+
+.navbar__container {
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+    border-bottom: solid white 2px;
+    padding-bottom: 20px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.home-link,
+.exploremore-link,
+.about-link {
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 20px 0 5px;
+    color: white;
+    border: solid lightblue 2px;
+    padding: 10px 25px;
+    transition: 0.1s;
+}
+
+.exploremore-link {}
+
+.home-link:hover,
+.exploremore-link:hover,
+.about-link:hover {
+    background-color: rgb(84, 78, 78);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+    color: rgb(237, 63, 182);
+}
+
+
+.home-heading {
+    text-align: center;
+    color: white;
+}
+
+.genre-heading {
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+    margin-left: 32px;
+}
+
+.genres__container {
+    display: grid;
+
+}
+
+.genres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.pop,
+.rap,
+.rock,
+.jazz,
+.electronic,
+.reggae,
+.country,
+.funk,
+.reggaeton,
+.kpop,
+.instrumental,
+.indie,
+.rnb,
+.classical,
+.trap {
+    background-image: linear-gradient(to right, rgb(237, 63, 182), pink);
+    width: 324px;
+    height: 182.25px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 20px 10px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding-left: 15px;
+    box-shadow: 5px 5px 5px rgb(180, 60, 227);
+}
+
+.pop:hover {
+    background-color: rgb(221, 56, 84);
+}
+
+.genre-pic__container {
+    display: flex;
+    height: 180px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.genre-pic {
+    position: relative;
+    left: 88px;
+    border-radius: 5px;
+}
+
+.genre-pic2 {
+    width: 90%;
+    position: relative;
+    left: 15px;
+    border-radius: 5px;
+}
+
+.genre-pic3 {
+    position: relative;
+    left: 50px;
+}
+
+.genre-pic4 {
+    position: relative;
+    left: 10px;
+}
+
+.genre-pic5 {
+    position: relative;
+    right: 50px;
+}
+
+.genre-text__container {}
+
+.genre-text {
+    margin-bottom: 10px;
+    font-family: Helvetica;
+    font-size: 31px;
+    color: white;
+}
+
+
+.trending-heading {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.trending__container {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.trending {
+    display: flex;
+    margin-right: 30px;
+}
+
+.trending-list {
+    font-size: 20px;
+    color: white;
+}
+
+.trending-songs {
+    margin-bottom: 32px;
+    font-size: 25px;
+    color: white;
+}
+
+.trending-songs:hover {
+    text-decoration: underline;
+}
+
+.trending-songs-link {
+    color: white;
+    text-decoration: none;
+}
+
+.trending-pics__container {
+    display: flex;
+    flex: 1;
+    height: auto;
+    overflow: hidden;
+}
+
+.trending-drake-pic,
+.trending-steve-pic,
+.taylor-trending-pic,
+.savage-trending-pic {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.trending-steve-pic {}
+
+
+.news-heading {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: -5px;
+
+}
+
+.news-heading1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 35px;
+
+}
+
+.concerts {
+    text-align: center;
+    color: white;
+
+}
+
+.news__container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.news-row {
+    display: flex;
+}
+
+.news {
+    width: 50%;
+
+}
+
+.news-info {
+    display: block;
+    text-align: center;
+}
+
+.eminem-info,
+.badbunny-info,
+.nicki-info,
+.drake-info {
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+
+}
+
+.news-pics {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 18px;
+
+}
+
+.eminem,
+.badbunny,
+.nicki,
+.drake {
+    width: 400px;
+}
+
+@media (max-width: 1205px) {
+    .news-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news {
+        width: 100%;
+    }
+
+    .news-info {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 680px) {
+    .trending-pics__container {
+        display: none;
+    }
+
+    .navbar__container {
+        height: 280px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .home-link {
+        margin-bottom: 30px;
+    }
+
+    .exploremore-link {
+        margin-bottom: 30px;
+    }
+}
+
+.tab_2-heading {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.tab_2-subheading {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tab_2-subheading2 {
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.tab_2-select-artist-heading {
+    color: white;
+    margin-left: 27px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.choose-artist {
+    margin-left: 27px;
+}
+
+.concerts-construction {
+    text-align: center;
+    color: rgb(255, 1, 255);
+
+}
+
+.tabs-playlist {
+    text-align: center;
+    color: rgb(255, 1, 255);
+}
+
+.about-color {
+    color: rgb(255, 1, 255);
+    font-size: 26px;
+
+}
+
+.about-color-text {
+    color: rgb(255, 1, 255);
+    margin-left: 38px;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.about-color-headings {
+    color: white;
+    margin-left: 38px;
+    font-size: 40px;
+}
+
+.exploremore-buttons__container {
+    width: 100%;
+
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+.button-format {
+    border: none;
+    background-color: palevioletred;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button-format:hover {
+    background-color: rgb(243, 166, 191);
+}
+
+.clickme {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 680px) {
+    .buttons-grid {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}

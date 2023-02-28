@@ -1,0 +1,195 @@
+body {
+    background-color: black;
+}
+
+.navbar__container {
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+    border-bottom: solid white 2px;
+    padding-bottom: 20px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.home-link,
+.exploremore-link,
+.about-link {
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 20px 0 5px;
+    color: white;
+    border: solid lightblue 2px;
+    padding: 10px 25px;
+    transition: 0.1s;
+}
+
+.home-link:hover,
+.exploremore-link:hover,
+.about-link:hover {
+    background-color: rgb(84, 78, 78);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+    color: rgb(237, 63, 182);
+}
+
+@media (max-width: 680px) {
+    .trending-pics__container {
+        display: none;
+    }
+
+    .navbar__container {
+        height: 280px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .home-link {
+        margin-bottom: 30px;
+    }
+
+    .exploremore-link {
+        margin-bottom: 30px;
+    }
+}
+
+.black {
+    color: black;
+    font-size: 36px;
+}
+
+.click {
+    background-color: rgb(241, 156, 184);
+    opacity: .80;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.numList {
+    padding: 20px;
+    background-color: rgb(255, 236, 243);
+    text-align: center;
+    height: 100%;
+    width: 10%;
+    font-size: 19px;
+    line-height: 22px;
+    font-family: Century Gothic;
+    font-size: 19px;
+    opacity: .80;
+
+}
+
+.songsDivider {
+    padding: 20px;
+    background-color: rgb(255, 173, 200);
+    float: right;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Century Gothic;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: .80;
+}
+
+.songs {
+    font-family: Rockwell Extra Bold;
+}
+
+.artist {
+    font-family: Rockwell Extra Bold;
+    font-style: italic;
+}
+
+.artistsDivider {
+    padding: 20px;
+    background-color: rgb(255, 158, 190);
+    float: right;
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    font-family: Century Gothic;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: .80;
+}
+
+.image {
+    width: 30%;
+}
+
+.buttons {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid palevioletred;
+    width: 96.8%;
+    height: 215px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(241, 156, 184);
+    flex-wrap: wrap;
+
+
+}
+
+.btn {
+    font-size: 25px;
+    background-color: palevioletred;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 5px 18px;
+    border-radius: 10px;
+    transition: 300ms;
+    margin-bottom: 15px;
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(241, 156, 184);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255);
+}
+
+.more {
+    font-size: 30px;
+    background-color: rgb(241, 156, 184);
+    text-align: center;
+    opacity: .80;
+    font-family: Century Gothic;
+}
+
+.frames {
+    border-radius: 12px;
+    width: 40%;
+    height: 500px;
+    float: left;
+    opacity: .90;
+}
+
+.frames1 {
+    border-radius: 12px;
+    width: 40%;
+    height: 500px;
+    float: right;
+    opacity: .90;
+}
